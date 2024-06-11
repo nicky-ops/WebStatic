@@ -46,6 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.logo {
+	display: flex;
+	align-items: center;
+}
+  
+.logo img {
+	width: 150px; 
+	height: auto;
+	margin-right: 10px; 
+}
+  
+.logo a {
+	text-decoration: none;
+	color: whitesmoke; 
+}
 
 /*
 	-------------------------
@@ -54,7 +69,7 @@ table {
 */
 body {
 	background: #041d04;
-	color: #888;
+	color: black;
 	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Nueue", Helvetica, Arial, sans-serif;
 }
 
@@ -122,7 +137,7 @@ body {
 	------------------------- 
   */
   .row {
-	background: #fff;
+	background: #ffffff;
 	padding: 66px 0 44px 0;
   }
   .row
